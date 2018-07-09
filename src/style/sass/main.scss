@@ -1,0 +1,80 @@
+
+
+.header {
+
+  background-color:#dddddd;
+
+
+
+
+}
+
+.search {
+  width: 100%;
+  display:flex;
+}
+
+.search__input {
+    width: 100%;
+    border: 0;
+    background: none;
+    outline: 1px solid grey;
+}
+
+.search__btn {
+  width:40px;
+  border: 0;
+
+}
+
+.wrapper {
+  width: $mobile-size;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  background:$body-bg;
+
+  @media (min-width: $desktop-size) {
+    width: $desktop-size;
+    padding: 0 40px;
+  }
+}
+
+.main {
+  width:100%;
+}
+.header__content {
+    min-height: 141px;
+    display:flex;
+  justify-content: space-between;
+position: absolute;
+padding-top:52px;
+padding-bottom:52px;
+top:0;
+left:50%;
+transform: translateX(-50%);
+opacity:0.9;
+border: $border-width solid $border-color;
+
+
+}
+.main__content {
+    padding:0;
+    margin-top:-141px;
+}
+
+.category {
+  min-height:665px;
+  border: $border-width solid $border-color;
+}
+.category--fixies {
+background: #6fa4c7;
+}
+
+.category--cruisers {
+background: #ae78d9;
+}
+.footer {
+  background: $footer-bg;
+  min-height:1700px;
+}

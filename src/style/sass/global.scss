@@ -1,0 +1,48 @@
+html {
+  font-size:$font-size-base;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  font-weight: 300;
+  font-size:$font-size-large;
+
+  margin:0 auto;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+
+img {
+  cursor:pointer;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+
+  width: 0px;
+  height: 0px;
+  padding: 0;
+
+  border: 0;
+}
