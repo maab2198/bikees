@@ -1,21 +1,71 @@
+
 @font-face {
-  font-family: "Oswald";
+  font-family: "OpenSans-CondensedLight";
+  font-weight: 400;
+  font-style: normal;
+
+  //font-display: swap;
+  src: local("OpenSans-CondensedLight"),
+  url("../../fonts/OpenSans-CondensedLight.woff") format("woff"),
+  url("../../fonts/OpenSans-CondLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "OdinRounded";
   font-weight: 400;
   font-style: normal;
 
   font-display: swap;
-  src: local("Oswald Regular"),
-  url("../fonts/oswaldregular.woff2") format("woff2"),
-  url("../fonts/oswaldregular.woff") format("woff");
+  src: local("OdinRounded"),
+  url("../../fonts/OdinRounded.woff") format("woff"),
+  url("../../fonts/OdinRounded.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Oswald";
-  font-weight: 500;
+  font-family: "OpenSans-Semibold";
+  font-weight: 400;
   font-style: normal;
 
   font-display: swap;
-  src: local("Oswald Medium"),
-  url("../fonts/oswaldmedium.woff2") format("woff2"),
-  url("../fonts/oswaldmedium.woff") format("woff");
+  src: local("OpenSans-Semibold"),
+  url("../../fonts/OpenSans-Semibold.woff") format("woff"),
+  url("../../fonts/OpenSans-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  font-weight: 400;
+  font-style: normal;
+
+  font-display: swap;
+  src: local("OpenSans"),
+  local("OpenSans-Regular"),
+  url("../../fonts/OpenSans.woff") format("woff"),
+  url("../../fonts/OpenSans-Regular.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: "OpenSans-Light";
+  font-weight: 400;
+  font-style: normal;
+
+  font-display: swap;
+  src: 
+  local("OpenSans-Light"),
+  url("../../fonts/OpenSans-Light.woff") format("woff"),
+  url("../../fonts/OpenSans-Light.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: "OpenSans-Light";
+  font-weight: 400;
+  font-style: italic;
+
+  font-display: swap;
+  src: 
+  local("OpenSans-LightItalic"),
+  url("../../fonts/OpenSans-LightItalic.woff2") format("woff2"),
+  url("../../fonts/OpenSansLight-Italic.woff") format("woff");
 }

@@ -63,15 +63,16 @@ module.exports = {
            options: {
              name: '[name].[ext]',
              outputPath: 'fonts/',    // where the fonts will go
-             publicPath: '../'       // override the default path
+             publicPath: 'dist/fonts/'       // override the default path
            }
          }]
     }]},
     plugins: [
      //new CleanWebpackPlugin(['dist/']),
-     new CopyWebpackPlugin([
+     /*new CopyWebpackPlugin([
       { from: 'node_modules/bootstrap-sass/assets/fonts/', to: 'fonts' }
     ]),
+    */
      new ExtractTextPlugin("styles.css"),
      new BrowserSyncPlugin({
         host: 'localhost',

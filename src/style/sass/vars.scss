@@ -14,48 +14,4 @@ $border-color:#4d5462;
 
 //**Size
 $mobile-size:320px;
-$desktop-size: 768px;
-
-
-//** path
-$roboto-font-path: "../../fonts/" !default;
-$brand-font: 'Roboto',sans-serif;
-
-//**links
-$link-color:#ffffff;
-$link-hover-color: lighten($link-color,50%);
-$link-hover-decoration:none;
-//** font
-$font-family-base:"Roboto", sans-serif;
-$font-size-base: 10px;
-$font-size-h3:ceil(($font-size-base * 1.8));
-$font-size-large: ceil(($font-size-base * 1.4));
-$font-size-small: ceil(($font-size-base * 0.85));
-
-//** bugs
-$line-height-base: 1.428571429;
-$line-height-large: 1.3333;
-$line-height-small: 1.5;
-$line-height-computed: 0;
-
-$padding-base-vertical: 6px;
-$padding-large-vertical: 10px;
-
-$input-height-base: ($line-height-computed + ($padding-base-vertical * 2) + 2);
-
-//** icons
-//$icon-font-path: "../dist/fonts/";
-
-$bootstrap-sass-asset-helper: false;
-$icon-font-name: "glyphicons-halflings-regular" !default;
-
-$icon-font-svg-id: "glyphicons-halflings-regular" !default;
-
-//** thumbnail
-$thumbnail-bg: #fff;
-$thumbnail-border-radius: 1px;
-$thumbnail-padding: 50px 12px 0 12px;
-
-$thumbnail-logo-size: 85px;
-$thumbnail-logo-padding: 14px 13px;
-$thumbnail-logo-path:url('../../img/logo.png');
+$desktop-size: 751px;
